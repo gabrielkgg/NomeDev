@@ -238,6 +238,11 @@ csstype@^2.6.8:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.18.tgz#980a8b53085f34af313410af064f2bd241784218"
   integrity sha512-RSU6Hyeg14am3Ah4VZEmeX8H7kLwEEirXe6aU2IPfKNvhXwTflK5HQRDNI0ypQXoqmm+QPyG2IaPuQE5zMwSIQ==
 
+date-fns@^2.22.1:
+  version "2.25.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.25.0.tgz#8c5c8f1d958be3809a9a03f4b742eba894fc5680"
+  integrity sha512-ovYRFnTrbGPD4nqaEqescPEv1mNwvt+UTqI3Ay9SzNtey9NZnYu6E2qCcBBgJ6/2VF1zGGygpyTDITqpQQ5e+w==
+
 doctypes@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/doctypes/-/doctypes-1.1.0.tgz#ea80b106a87538774e8a3a4a5afe293de489e0a9"
@@ -859,12 +864,24 @@ vscode-vue-languageservice@^0.27.0:
     vscode-pug-languageservice "^0.27.24"
     vscode-typescript-languageservice "^0.27.25"
 
+vue-class-component@^8.0.0-rc.1:
+  version "8.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/vue-class-component/-/vue-class-component-8.0.0-rc.1.tgz#db692cd97656eb9a08206c03d0b7398cdb1d9420"
+  integrity sha512-w1nMzsT/UdbDAXKqhwTmSoyuJzUXKrxLE77PCFVuC6syr8acdFDAq116xgvZh9UCuV0h+rlCtxXolr3Hi3HyPQ==
+
 vue-tsc@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/vue-tsc/-/vue-tsc-0.3.0.tgz#3b3872bf4f1d2e4409b57adbd826032e253db406"
   integrity sha512-zaDRZBxwRIz1XjhNP92FqugG71st6BUMnA2EwPeXrAyzbEYVRz6TezNFceYl3QYqqN8CtaxbqUhaQEDj/ntoCA==
   dependencies:
     vscode-vue-languageservice "^0.27.0"
+
+vue3-datepicker@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/vue3-datepicker/-/vue3-datepicker-0.2.5.tgz#4e31e05f713b0e6664145ea89df958b6bdd38cb2"
+  integrity sha512-knZCjq8320UjP1qPyJ62B08EUdRhMWbZOAR0gBWF+FRQTtkLv6SwgQdOdS1h0Xj7N8ov9thK1mD47gReXgQGkA==
+  dependencies:
+    date-fns "^2.22.1"
 
 vue@^3.2.16:
   version "3.2.20"
